@@ -96,40 +96,55 @@ body {
   max-width: 1160px;
   height: 600px;
   margin: 50px 140px;
+  /* background-image: linear-gradient(to right, rgba(7, 2, 17,0.8)),url(./images/Vectorrr.png); */
   background-image: url(./images/Vectorrr.png);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5); 
+
+  /* background: linear-gradient(to left, rgba(7, 2, 17)); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
   border-radius: 16px;
   font-family: "Merriweather", serif;
-  color: rgba(255, 255, 255,100);
+  color: rgba(255, 255, 255, 100);
+  display: flex;
+  gap: 20px;
 }
 
-.welcome_party_content{
-    padding: 80px 0 0 100px;
+.welcome_party_content {
+  padding: 80px 0 0 100px;
 }
 
-.welcome_party_content h1{
-    font-size: 54px;
+.welcome_party_content h1 {
+  font-size: 54px;
 }
 
-.welcome_party_content p{
-    color: rgba(255, 255, 255,0.7);
-    font-family: "Inter", sans-serif;
+.welcome_party_content p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Inter", sans-serif;
 }
 
-.welcome_party_content .join{
-    color: rgba(255, 255, 255,100);
-    font-family: "Inter", sans-serif;
-    padding: 50px 0 0 40px;
+.welcome_party_content .join {
+  color: rgba(255, 255, 255, 100);
+  font-family: "Inter", sans-serif;
+  padding: 50px 0 0 40px;
 }
 
 .join a {
-    font-size: 20px;
-    font-weight: 700;
-    color: rgba(255, 255, 255,100);
-    text-transform: uppercase;
-    text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 100);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.welcome_party_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome_party_img img{
+    width: 270px;
 }
