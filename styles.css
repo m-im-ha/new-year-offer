@@ -98,7 +98,7 @@ body {
   margin: 50px 140px;
   /* background-image: linear-gradient(to right, rgba(7, 2, 17,0.8)),url(./images/Vectorrr.png); */
   background-image: url(./images/Vectorrr.png);
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.5);
 
   /* background: linear-gradient(to left, rgba(7, 2, 17)); */
   background-position: center;
@@ -139,12 +139,47 @@ body {
   text-decoration: none;
 }
 
-.welcome_party_img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.welcome_party_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.welcome_party_img img{
-    width: 270px;
+.welcome_party_img img {
+  width: 270px;
+}
+
+/* program time */
+
+.program_time {
+  max-width: 1160px;
+  height: 400px;
+  margin: 80px 140px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 230, 230, 0.5) 20%,
+    rgba(255, 247, 247, 0.9) 40%
+  );
+  text-align: center;
+  padding-top: 80px;
+  color: #000000;
+}
+
+.program_time_content span {
+  color: #ff0000;
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+.btn button{
+    color: #ffffff;
+    background-color: #ff0000;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 30px;
+    font-weight: 700;
+    cursor: pointer;
 }
