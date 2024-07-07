@@ -20,7 +20,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-
 /* header */
 
 .header_container {
@@ -58,21 +57,79 @@ body {
 
 /* sale */
 
-.sale{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: black;
+.sale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-bottom: 100px;
 }
 
-.sale h1{
-    font-size: 70px;
-    color: #FF0000;
+.sale h1 {
+  font-size: 70px;
+  margin-top: 50px;
 }
 
-.sale img{
-    margin-top: 40px;
-    width: 685px;
+.sale h1,
+.sale p {
+  color: #ff0000;
+}
 
+.sale_content {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.sale_content h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.sale img {
+  margin-top: 20px;
+  width: 685px;
+}
+
+.welcome_party {
+  max-width: 1160px;
+  height: 600px;
+  margin: 50px 140px;
+  background-image: url(./images/Vectorrr.png);
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: overlay;
+  border-radius: 16px;
+  font-family: "Merriweather", serif;
+  color: rgba(255, 255, 255,100);
+}
+
+.welcome_party_content{
+    padding: 80px 0 0 100px;
+}
+
+.welcome_party_content h1{
+    font-size: 54px;
+}
+
+.welcome_party_content p{
+    color: rgba(255, 255, 255,0.7);
+    font-family: "Inter", sans-serif;
+}
+
+.welcome_party_content .join{
+    color: rgba(255, 255, 255,100);
+    font-family: "Inter", sans-serif;
+    padding: 50px 0 0 40px;
+}
+
+.join a {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255,100);
+    text-transform: uppercase;
+    text-decoration: none;
 }
