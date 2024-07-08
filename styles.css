@@ -210,18 +210,18 @@ body {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.coming_soon_content_middle{
+.coming_soon_content_middle {
   border: 8px solid #ff0000;
   border-radius: 50%;
   /* padding: 10px; */
 }
 
-.coming_soon_content_middle img{
+.coming_soon_content_middle img {
   width: 310px;
   padding: 15px;
 }
 
-.coming_soon_content_right{
+.coming_soon_content_right {
   padding-left: 30px;
   width: 400px;
 }
@@ -239,38 +239,34 @@ body {
 
 /* holiday sale */
 
-
-.holiday_sale{
+.holiday_sale {
   max-width: 1160px;
   margin: 100px 140px;
   color: #000000;
 }
-.holiday_sale_top{
-  text-align: center; 
-   color: #000000;
+.holiday_sale_top {
+  text-align: center;
+  color: #000000;
   /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;*/
-} 
+}
 
-.holiday_sale_top h1{
+.holiday_sale_top h1 {
   margin-top: 10px;
   font-size: 50px;
   font-family: "Merriweather", serif;
 }
-.holiday_sale_top span{
+.holiday_sale_top span {
   color: #ff0000;
 }
 
-
-
-.holiday_sale_top p{
+.holiday_sale_top p {
   color: rgba(0, 0, 0, 0.7);
- 
 }
 
-.holiday_sale_bottom{
+.holiday_sale_bottom {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -279,7 +275,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: overlay;
-  height: 150px; 
+  height: 150px;
   margin-top: 350px;
   border-radius: 10px;
   /* text-align: end; */
@@ -287,21 +283,50 @@ body {
   /* bottom: 0; */
 }
 
-.holiday_sale_bottom_left{
+.holiday_sale_bottom_left {
   margin-bottom: 250px;
-
 }
 
-.holiday_sale_bottom_left img{
+.holiday_sale_bottom_left img {
   width: 400px;
-
 }
-.holiday_sale_bottom_right{
+.holiday_sale_bottom_right {
   margin-bottom: 450px;
   margin-left: 200px;
-
 }
-.holiday_sale_bottom_right img{
+.holiday_sale_bottom_right img {
   width: 200px;
+}
 
+/* portfolio */
+
+.portfolio{
+  max-width: 1160px;
+  margin: 100px 140px;
+  color: #000000;
+}
+
+.portfolio_content h4{
+  color: #ff0000;
+}
+
+.portfolio_content h1{
+  font-size: 30px;
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+}
+
+.portfolio_content p{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio_images{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.portfolio_images img{
+  width: 340px;
 }
