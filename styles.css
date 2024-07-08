@@ -23,7 +23,7 @@ body {
 /* header */
 
 .header_container {
-  max-width: 1160px;
+  /* max-width: 1160px; */
   height: 600px;
   margin: 50px 140px;
   background-image: url("./images/Banner\ Image.png");
